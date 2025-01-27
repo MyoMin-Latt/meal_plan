@@ -86,3 +86,6 @@ recipt/
 │   └── remote_service
 ├── view_models/
 ├── views/
+
+
+apiKEY = 26d0b4d363dd40a1b56f27dad91f524f
