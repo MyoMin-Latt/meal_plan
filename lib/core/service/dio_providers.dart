@@ -35,7 +35,7 @@ Dio dioProvider() {
         store: HiveCacheStore(AppPathProvider.path),
         policy: CachePolicy.forceCache,
         hitCacheOnErrorExcept: [401, 403],
-        maxStale: const Duration(minutes: 30),
+        maxStale: const Duration(days: 30),
         priority: CachePriority.normal,
       ),
     ),
